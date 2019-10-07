@@ -12,7 +12,7 @@ def oxford_comma(array)
     final_element = array[-1]
     array.pop
     array.each do |element|
-      puts element.join(", ") + "and #{final_element}"
+      puts element.join(", ") << "and #{final_element}"
     end
   end
     
