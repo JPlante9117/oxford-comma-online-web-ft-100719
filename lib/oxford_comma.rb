@@ -14,5 +14,6 @@ def oxford_comma(array)
     array.each do |element|
       puts element.join(", ") + "and #{final_element}"
     end
+  end
     
 end
