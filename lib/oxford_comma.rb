@@ -8,5 +8,9 @@ def oxford_comma(array)
     array.each do |element|
       puts element.join(" and ")
     end
-  
+  else
+    final element = array[-1]
+    array.pop
+    array.each do |element|
+      puts
 end
