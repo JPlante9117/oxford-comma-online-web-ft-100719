@@ -7,7 +7,7 @@ def oxford_comma(array)
   else
     final_element = array[-1]
     array.pop
-    return array.join(", ") << "and #{final_element}"
+    return array.join(", ") << ", and #{final_element}"
   end
     
 end
